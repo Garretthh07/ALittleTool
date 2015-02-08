@@ -1,0 +1,48 @@
+
+# Filename: if.py
+# Filename: if.py
+# Filename: if.py
+# This last statement is always executed, after the if statement is
+# This last statement is always executed, after the if statement is
+# This last statement is always executed, after the if statement is
+# executed
+# executed
+# executed
+#!/usr/bin/python
+#!/usr/bin/python
+#Another block #you can do whatever you want in a block ...  else: print
+#Another block #you can do whatever you want in a block ...  else: print
+#Another block #you can do whatever you want in a block ...  else: print
+'No, it is a little lower than that' #you must have guess > number to
+'No, it is a little lower than that' #you must have guess > number to
+'No, it is a little lower than that' #you must have guess > number to
+//
+//
+//
+//
+//#include "unistd.h" #include "stdlib.h"
+//1234567890-_=+p{[}]p[]nm,<.>//?AI\|` `~.......  #include "stdio.h"
+//Chapter abcdefghijklmnopqrstuvwxyz zyxwvutsrqponmlkjihgfedcba
+//TEXt.//barf     xEW TEXt.
+//Teacher weishun criticized Professor Johnson today.  Chapter
+//barfoo
+//barm     xEW TEXt.//barm     xEW TEXt.//         xEW TEXt.//bar#
+//xEW TEXt.//barf     xEW TEXt.//         xEW TEXt.//barf     xEW
+ds//#include "fcntl.h" #!/usr/bin/python
+foobar
+here elif guess < number: print 'No, it is a  little higher than that'
+here elif guess < number: print 'No, it is a  little higher than that'
+here elif guess < number: print 'No, it is a  little higher than that'
+if guess == number: print 'Congratulation, you guessed it.' # New block
+if guess == number: print 'Congratulation, you guessed it.' # New block
+if guess == number: print 'Congratulation, you guessed it.' # New block
+number = 23 guess = int(raw_input('Enter an integer : '))
+number = 23 guess = int(raw_input('Enter an integer : '))
+number = 23 guess = int(raw_input('enter an integer : '))
+reach here print 'Done'
+reach here print 'Done'
+reach here print 'Done'
+starts here print "(but you do not win any prizes!" # New block ends
+starts here print "(but you do not win any prizes!" # New block ends
+starts here print "(but you do not win any prizes!" # New block ends
+string//barfoo
