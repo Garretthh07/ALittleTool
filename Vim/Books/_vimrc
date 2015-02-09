@@ -599,3 +599,9 @@ map <F5> i{<Esc>ea}<Esc>
 set list
 set listchars=tab:>-,trail:-
 set writebackup
+
+" Man for C or Shell: vim.pdf ---> *12.6*
+source $VIMRUNTIME/ftplugin/man.vim
+
+" sessionoptions can fit MS-Windows and Unix
+set sessionoptions+=unix,slash
