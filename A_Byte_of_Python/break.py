@@ -7,3 +7,7 @@ while True:
         break
     print 'Length of the string is', len(e)
 print 'Done'
+
+import sys
+
+sys

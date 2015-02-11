@@ -47,3 +47,19 @@ input B    0.111     0.913           0.111
 
 inp 0.693   0.534   0.693
 
+abcdefghijklmnopqrstuvwxyz
+zyxwvutsrqponmlkjihgfedcba
+1234567890-_=+p{[]}`~\|/?,<.>
+
+The financial results for 2013 are better
+than for 2016. The income increased by 50%,
+even though 2014 had more rain than 2023.
+        2013        2015
+income  45,403      66,234
+
+4. item four
+5. item five
+6. item six
+
+010 foo bar
+012 foo bar

@@ -7,3 +7,20 @@ int main() {
     }
     return 0;
 }
+x_counter
+x_counter
+x_counter
+x_counter
+x_counter
+x_counter
+x_counter
+x_counter
+
+-person-
+-person-
+-person-
+-person-
+-person-
+-person-
+-person-
+-person-

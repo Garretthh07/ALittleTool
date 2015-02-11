@@ -1,0 +1,25 @@
++------------------------+
+| line 1                 |
+| line 2                 |
+| line 3                 |
+|------------------------+
+\                        \
+ \----------------------- \
+ / folded lines           /
+/------------------------/
+|  line 12              |
+|  line 13              |
+|  line 14              |
++-----------------------+
+#include "stdio.h"
+This line is not indented
+    This line is not indented once
+        This line is not indented twice
+        This line is not indented twice
+    This line is not indented once
+This line is not indented
+    This line is not indented once
+    This line is not indented once
+
+
+
