@@ -1,0 +1,450 @@
+	.\dot_Vim\boring.vim	/^map  h$/;"	m
+	.\dot_Vim\mine.vim	/^imap <buffer>  <Plug>NetrwHideEdit$/;"	m
+	.\dot_Vim\mine.vim	/^map  h$/;"	m
+	.\dot_Vim\secret.vim	/^map  h$/;"	m
+	.\vimbook.vim	/^map  h$/;"	m
+		.\dot_Vim\boring.vim	/^imap 	 <Plug>Jumper$/;"	m
+		.\dot_Vim\mine.vim	/^imap 	 <Plug>Jumper$/;"	m
+		.\dot_Vim\secret.vim	/^imap 	 <Plug>Jumper$/;"	m
+		.\vimbook.vim	/^imap 	 <Plug>Jumper$/;"	m
+	.\dot_Vim\boring.vim	/^map   \/$/;"	m
+	.\dot_Vim\mine.vim	/^map   \/$/;"	m
+	.\dot_Vim\secret.vim	/^map   \/$/;"	m
+	.\vimbook.vim	/^map   \/$/;"	m
+	.\dot_Vim\boring.vim	/^map  k$/;"	m
+	.\dot_Vim\mine.vim	/^map  k$/;"	m
+	.\dot_Vim\secret.vim	/^map  k$/;"	m
+	.\vimbook.vim	/^map  k$/;"	m
+	.\dot_Vim\boring.vim	/^map  l$/;"	m
+	.\dot_Vim\mine.vim	/^imap <buffer>  <Plug>NetrwRefresh$/;"	m
+	.\dot_Vim\mine.vim	/^map  l$/;"	m
+	.\dot_Vim\secret.vim	/^map  l$/;"	m
+	.\vimbook.vim	/^map  l$/;"	m
+	.\dot_Vim\boring.vim	/^imap  :w$/;"	m
+	.\dot_Vim\boring.vim	/^nmap  :w$/;"	m
+	.\dot_Vim\mine.vim	/^imap  :w$/;"	m
+	.\dot_Vim\mine.vim	/^nmap  :w$/;"	m
+	.\dot_Vim\secret.vim	/^imap  :w$/;"	m
+	.\dot_Vim\secret.vim	/^nmap  :w$/;"	m
+	.\vimbook.vim	/^imap  :w$/;"	m
+	.\vimbook.vim	/^nmap  :w$/;"	m
+	.\dot_Vim\boring.vim	/^inoremap  u$/;"	m
+	.\dot_Vim\mine.vim	/^inoremap  u$/;"	m
+	.\dot_Vim\secret.vim	/^inoremap  u$/;"	m
+	.\vimbook.vim	/^inoremap  u$/;"	m
+	.\dot_Vim\boring.vim	/^vmap  "*d$/;"	m
+	.\dot_Vim\mine.vim	/^vmap  "*d$/;"	m
+	.\dot_Vim\secret.vim	/^vmap  "*d$/;"	m
+	.\vimbook.vim	/^vmap  "*d$/;"	m
+c	.\dot_Vim\boring.vim	/^nmap c :cs find c =expand("<cword>")$/;"	m
+c	.\dot_Vim\mine.vim	/^nmap c :cs find c =expand("<cword>")$/;"	m
+c	.\dot_Vim\secret.vim	/^nmap c :cs find c =expand("<cword>")$/;"	m
+c	.\vimbook.vim	/^nmap c :cs find c =expand("<cword>")$/;"	m
+d	.\dot_Vim\boring.vim	/^nmap d :cs find d =expand("<cword>")$/;"	m
+d	.\dot_Vim\mine.vim	/^nmap d :cs find d =expand("<cword>")$/;"	m
+d	.\dot_Vim\secret.vim	/^nmap d :cs find d =expand("<cword>")$/;"	m
+d	.\vimbook.vim	/^nmap d :cs find d =expand("<cword>")$/;"	m
+e	.\dot_Vim\boring.vim	/^nmap e :cs find e =expand("<cword>")$/;"	m
+e	.\dot_Vim\mine.vim	/^nmap e :cs find e =expand("<cword>")$/;"	m
+e	.\dot_Vim\secret.vim	/^nmap e :cs find e =expand("<cword>")$/;"	m
+e	.\vimbook.vim	/^nmap e :cs find e =expand("<cword>")$/;"	m
+f	.\dot_Vim\boring.vim	/^nmap f :cs find f =expand("<cfile>")$/;"	m
+f	.\dot_Vim\mine.vim	/^nmap f :cs find f =expand("<cfile>")$/;"	m
+f	.\dot_Vim\secret.vim	/^nmap f :cs find f =expand("<cfile>")$/;"	m
+f	.\vimbook.vim	/^nmap f :cs find f =expand("<cfile>")$/;"	m
+g	.\dot_Vim\boring.vim	/^nmap g :cs find g =expand("<cword>")$/;"	m
+g	.\dot_Vim\mine.vim	/^nmap g :cs find g =expand("<cword>")$/;"	m
+g	.\dot_Vim\secret.vim	/^nmap g :cs find g =expand("<cword>")$/;"	m
+g	.\vimbook.vim	/^nmap g :cs find g =expand("<cword>")$/;"	m
+i	.\dot_Vim\boring.vim	/^nmap i :cs find i ^=expand("<cfile>")$/;"	m
+i	.\dot_Vim\mine.vim	/^nmap i :cs find i ^=expand("<cfile>")$/;"	m
+i	.\dot_Vim\secret.vim	/^nmap i :cs find i ^=expand("<cfile>")$/;"	m
+i	.\vimbook.vim	/^nmap i :cs find i ^=expand("<cfile>")$/;"	m
+s	.\dot_Vim\boring.vim	/^nmap s :cs find s =expand("<cword>")$/;"	m
+s	.\dot_Vim\mine.vim	/^nmap s :cs find s =expand("<cword>")$/;"	m
+s	.\dot_Vim\secret.vim	/^nmap s :cs find s =expand("<cword>")$/;"	m
+s	.\vimbook.vim	/^nmap s :cs find s =expand("<cword>")$/;"	m
+t	.\dot_Vim\boring.vim	/^nmap t :cs find t =expand("<cword>")$/;"	m
+t	.\dot_Vim\mine.vim	/^nmap t :cs find t =expand("<cword>")$/;"	m
+t	.\dot_Vim\secret.vim	/^nmap t :cs find t =expand("<cword>")$/;"	m
+t	.\vimbook.vim	/^nmap t :cs find t =expand("<cword>")$/;"	m
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+#	.\dot_Vim\boring.vim	/^vnoremap <silent> # :call VisualSelection('b')$/;"	m
+#	.\dot_Vim\mine.vim	/^vnoremap <silent> # :call VisualSelection('b')$/;"	m
+#	.\dot_Vim\secret.vim	/^vnoremap <silent> # :call VisualSelection('b')$/;"	m
+#	.\vimbook.vim	/^vnoremap <silent> # :call VisualSelection('b')$/;"	m
+*	.\dot_Vim\boring.vim	/^vnoremap <silent> * :call VisualSelection('f')$/;"	m
+*	.\dot_Vim\mine.vim	/^vnoremap <silent> * :call VisualSelection('f')$/;"	m
+*	.\dot_Vim\secret.vim	/^vnoremap <silent> * :call VisualSelection('f')$/;"	m
+*	.\vimbook.vim	/^vnoremap <silent> * :call VisualSelection('f')$/;"	m
+,	.\dot_Vim\boring.vim	/^map ,  :vimgrep \/\/ %<Right><Right><Right><Right><Right><Right><Right><Right><Right>$/;"	m
+,	.\dot_Vim\mine.vim	/^map ,  :vimgrep \/\/ %<Right><Right><Right><Right><Right><Right><Right><Right><Right>$/;"	m
+,	.\dot_Vim\secret.vim	/^map ,  :vimgrep \/\/ %<Right><Right><Right><Right><Right><Right><Right><Right><Right>$/;"	m
+,	.\vimbook.vim	/^map ,  :vimgrep \/\/ %<Right><Right><Right><Right><Right><Right><Right><Right><Right>$/;"	m
+,	.\dot_Vim\boring.vim	/^map <silent> ,$/;"	m
+,	.\dot_Vim\mine.vim	/^map <silent> ,$/;"	m
+,	.\dot_Vim\secret.vim	/^map <silent> ,$/;"	m
+,	.\vimbook.vim	/^map <silent> ,$/;"	m
+,bd	.\dot_Vim\boring.vim	/^map ,bd :1,1000 bd!$/;"	m
+,bd	.\dot_Vim\mine.vim	/^map ,bd :1,1000 bd!$/;"	m
+,bd	.\dot_Vim\secret.vim	/^map ,bd :1,1000 bd!$/;"	m
+,bd	.\vimbook.vim	/^map ,bd :1,1000 bd!$/;"	m
+,c	.\dot_Vim\boring.vim	/^map ,c <Plug>MyCapitalize$/;"	m
+,c	.\dot_Vim\mine.vim	/^map ,c <Plug>MyCapitalize$/;"	m
+,c	.\dot_Vim\secret.vim	/^map ,c <Plug>MyCapitalize$/;"	m
+,c	.\vimbook.vim	/^map ,c <Plug>MyCapitalize$/;"	m
+,cc	.\dot_Vim\boring.vim	/^map ,cc :botright cope$/;"	m
+,cc	.\dot_Vim\mine.vim	/^map ,cc :botright cope$/;"	m
+,cc	.\dot_Vim\secret.vim	/^map ,cc :botright cope$/;"	m
+,cc	.\vimbook.vim	/^map ,cc :botright cope$/;"	m
+,cd	.\dot_Vim\boring.vim	/^map ,cd :cd %:p:h$/;"	m
+,cd	.\dot_Vim\mine.vim	/^map ,cd :cd %:p:h$/;"	m
+,cd	.\dot_Vim\secret.vim	/^map ,cd :cd %:p:h$/;"	m
+,cd	.\vimbook.vim	/^map ,cd :cd %:p:h$/;"	m
+,co	.\dot_Vim\boring.vim	/^map ,co ggVGy:tabnew$/;"	m
+,co	.\dot_Vim\mine.vim	/^map ,co ggVGy:tabnew$/;"	m
+,co	.\dot_Vim\secret.vim	/^map ,co ggVGy:tabnew$/;"	m
+,co	.\vimbook.vim	/^map ,co ggVGy:tabnew$/;"	m
+,g	.\dot_Vim\boring.vim	/^map ,g :vimgrep \/\/ **\/*.<Left><Left><Left><Left><Left><Left><Left>$/;"	m
+,g	.\dot_Vim\mine.vim	/^map ,g :vimgrep \/\/ **\/*.<Left><Left><Left><Left><Left><Left><Left>$/;"	m
+,g	.\dot_Vim\secret.vim	/^map ,g :vimgrep \/\/ **\/*.<Left><Left><Left><Left><Left><Left><Left>$/;"	m
+,g	.\vimbook.vim	/^map ,g :vimgrep \/\/ **\/*.<Left><Left><Left><Left><Left><Left><Left>$/;"	m
+,m	.\dot_Vim\boring.vim	/^noremap ,m mmHmt:%s\/$/;"	m
+,m	.\dot_Vim\mine.vim	/^noremap ,m mmHmt:%s\/$/;"	m
+,m	.\dot_Vim\secret.vim	/^noremap ,m mmHmt:%s\/$/;"	m
+,m	.\vimbook.vim	/^noremap ,m mmHmt:%s\/$/;"	m
+,n	.\dot_Vim\boring.vim	/^map ,n :cn$/;"	m
+,n	.\dot_Vim\mine.vim	/^map ,n :cn$/;"	m
+,n	.\dot_Vim\secret.vim	/^map ,n :cn$/;"	m
+,n	.\vimbook.vim	/^map ,n :cn$/;"	m
+,p	.\dot_Vim\boring.vim	/^map ,p :cp$/;"	m
+,p	.\dot_Vim\mine.vim	/^map ,p :cp$/;"	m
+,p	.\dot_Vim\secret.vim	/^map ,p :cp$/;"	m
+,p	.\vimbook.vim	/^map ,p :cp$/;"	m
+,pp	.\dot_Vim\boring.vim	/^map ,pp :setlocal paste!<cr$/;"	m
+,pp	.\dot_Vim\mine.vim	/^map ,pp :setlocal paste!<cr$/;"	m
+,pp	.\dot_Vim\secret.vim	/^map ,pp :setlocal paste!<cr$/;"	m
+,pp	.\vimbook.vim	/^map ,pp :setlocal paste!<cr$/;"	m
+,q	.\dot_Vim\boring.vim	/^map ,q :e ~\/buffer$/;"	m
+,q	.\dot_Vim\mine.vim	/^map ,q :e ~\/buffer$/;"	m
+,q	.\dot_Vim\secret.vim	/^map ,q :e ~\/buffer$/;"	m
+,q	.\vimbook.vim	/^map ,q :e ~\/buffer$/;"	m
+,r	.\dot_Vim\boring.vim	/^vnoremap <silent> ,r :call VisualSelection('replace')$/;"	m
+,r	.\dot_Vim\mine.vim	/^vnoremap <silent> ,r :call VisualSelection('replace')$/;"	m
+,r	.\dot_Vim\secret.vim	/^vnoremap <silent> ,r :call VisualSelection('replace')$/;"	m
+,r	.\vimbook.vim	/^vnoremap <silent> ,r :call VisualSelection('replace')$/;"	m
+,s?	.\dot_Vim\boring.vim	/^map ,s? z= $/;"	m
+,s?	.\dot_Vim\mine.vim	/^map ,s? z= $/;"	m
+,s?	.\dot_Vim\secret.vim	/^map ,s? z= $/;"	m
+,s?	.\vimbook.vim	/^map ,s? z= $/;"	m
+,sa	.\dot_Vim\boring.vim	/^map ,sa zg$/;"	m
+,sa	.\dot_Vim\mine.vim	/^map ,sa zg$/;"	m
+,sa	.\dot_Vim\secret.vim	/^map ,sa zg$/;"	m
+,sa	.\vimbook.vim	/^map ,sa zg$/;"	m
+,sn	.\dot_Vim\boring.vim	/^map ,sn ]s$/;"	m
+,sn	.\dot_Vim\mine.vim	/^map ,sn ]s$/;"	m
+,sn	.\dot_Vim\secret.vim	/^map ,sn ]s$/;"	m
+,sn	.\vimbook.vim	/^map ,sn ]s$/;"	m
+,sp	.\dot_Vim\boring.vim	/^map ,sp [s$/;"	m
+,sp	.\dot_Vim\mine.vim	/^map ,sp [s$/;"	m
+,sp	.\dot_Vim\secret.vim	/^map ,sp [s$/;"	m
+,sp	.\vimbook.vim	/^map ,sp [s$/;"	m
+,ss	.\dot_Vim\boring.vim	/^map ,ss :setlocal spell!$/;"	m
+,ss	.\dot_Vim\mine.vim	/^map ,ss :setlocal spell!$/;"	m
+,ss	.\dot_Vim\secret.vim	/^map ,ss :setlocal spell!$/;"	m
+,ss	.\vimbook.vim	/^map ,ss :setlocal spell!$/;"	m
+,tc	.\dot_Vim\boring.vim	/^map ,tc :tabclose$/;"	m
+,tc	.\dot_Vim\mine.vim	/^map ,tc :tabclose$/;"	m
+,tc	.\dot_Vim\secret.vim	/^map ,tc :tabclose$/;"	m
+,tc	.\vimbook.vim	/^map ,tc :tabclose$/;"	m
+,te	.\dot_Vim\boring.vim	/^map ,te :tabedit =expand("%:p:h")$/;"	m
+,te	.\dot_Vim\mine.vim	/^map ,te :tabedit =expand("%:p:h")$/;"	m
+,te	.\dot_Vim\secret.vim	/^map ,te :tabedit =expand("%:p:h")$/;"	m
+,te	.\vimbook.vim	/^map ,te :tabedit =expand("%:p:h")$/;"	m
+,tm	.\dot_Vim\boring.vim	/^map ,tm :tabmove$/;"	m
+,tm	.\dot_Vim\mine.vim	/^map ,tm :tabmove$/;"	m
+,tm	.\dot_Vim\secret.vim	/^map ,tm :tabmove$/;"	m
+,tm	.\vimbook.vim	/^map ,tm :tabmove$/;"	m
+,tn	.\dot_Vim\boring.vim	/^map ,tn :tabnew$/;"	m
+,tn	.\dot_Vim\mine.vim	/^map ,tn :tabnew$/;"	m
+,tn	.\dot_Vim\secret.vim	/^map ,tn :tabnew$/;"	m
+,tn	.\vimbook.vim	/^map ,tn :tabnew$/;"	m
+,to	.\dot_Vim\boring.vim	/^map ,to :tabonly$/;"	m
+,to	.\dot_Vim\mine.vim	/^map ,to :tabonly$/;"	m
+,to	.\dot_Vim\secret.vim	/^map ,to :tabonly$/;"	m
+,to	.\vimbook.vim	/^map ,to :tabonly$/;"	m
+,w	.\dot_Vim\boring.vim	/^nmap ,w :w!$/;"	m
+,w	.\dot_Vim\mine.vim	/^nmap ,w :w!$/;"	m
+,w	.\dot_Vim\secret.vim	/^nmap ,w :w!$/;"	m
+,w	.\vimbook.vim	/^nmap ,w :w!$/;"	m
+0	.\dot_Vim\boring.vim	/^map 0 ^$/;"	m
+0	.\dot_Vim\boring.vim	/^normal! 0$/;"	m
+0	.\dot_Vim\main.vim	/^normal! 0$/;"	m
+0	.\dot_Vim\mine.vim	/^map 0 ^$/;"	m
+0	.\dot_Vim\mine.vim	/^normal! 0$/;"	m
+0	.\dot_Vim\secret.vim	/^map 0 ^$/;"	m
+0	.\dot_Vim\secret.vim	/^normal! 0$/;"	m
+0	.\vimbook.vim	/^map 0 ^$/;"	m
+0	.\vimbook.vim	/^normal! 0$/;"	m
+032l	.\dot_Vim\boring.vim	/^normal! 032l$/;"	m
+04l	.\dot_Vim\boring.vim	/^normal! 04l$/;"	m
+04l	.\dot_Vim\secret.vim	/^normal! 04l$/;"	m
+04l	.\vimbook.vim	/^normal! 04l$/;"	m
+064l	.\dot_Vim\boring.vim	/^normal! 064l$/;"	m
+064l	.\dot_Vim\secret.vim	/^normal! 064l$/;"	m
+064l	.\vimbook.vim	/^normal! 064l$/;"	m
+<C-Del>	.\dot_Vim\boring.vim	/^vmap <C-Del> "*d$/;"	m
+<C-Del>	.\dot_Vim\mine.vim	/^vmap <C-Del> "*d$/;"	m
+<C-Del>	.\dot_Vim\secret.vim	/^vmap <C-Del> "*d$/;"	m
+<C-Del>	.\vimbook.vim	/^vmap <C-Del> "*d$/;"	m
+<C-Insert>	.\dot_Vim\boring.vim	/^vmap <C-Insert> "*y$/;"	m
+<C-Insert>	.\dot_Vim\mine.vim	/^vmap <C-Insert> "*y$/;"	m
+<C-Insert>	.\dot_Vim\secret.vim	/^vmap <C-Insert> "*y$/;"	m
+<C-Insert>	.\vimbook.vim	/^vmap <C-Insert> "*y$/;"	m
+<C-Space>	.\dot_Vim\boring.vim	/^map <C-Space> ?$/;"	m
+<C-Space>	.\dot_Vim\mine.vim	/^map <C-Space> ?$/;"	m
+<C-Space>	.\dot_Vim\secret.vim	/^map <C-Space> ?$/;"	m
+<C-Space>	.\vimbook.vim	/^map <C-Space> ?$/;"	m
+<F1>	.\dot_Vim\mine.vim	/^nnoremap <buffer> <F1> :he netrw-quickhelp$/;"	m
+<F3>	.\dot_Vim\boring.vim	/^nmap <F3> =strftime("%Y-%m-%d %a %I:%M %p")$/;"	m
+<F3>	.\dot_Vim\mine.vim	/^nmap <F3> =strftime("%Y-%m-%d %a %I:%M %p")$/;"	m
+<F3>	.\dot_Vim\secret.vim	/^nmap <F3> =strftime("%Y-%m-%d %a %I:%M %p")$/;"	m
+<F3>	.\vimbook.vim	/^nmap <F3> =strftime("%Y-%m-%d %a %I:%M %p")$/;"	m
+<F5>	.\dot_Vim\boring.vim	/^map <F5> i{ea}$/;"	m
+<F5>	.\dot_Vim\mine.vim	/^map <F5> i{ea}$/;"	m
+<F5>	.\dot_Vim\secret.vim	/^map <F5> i{ea}$/;"	m
+<F5>	.\vimbook.vim	/^map <F5> i{ea}$/;"	m
+<M-j>	.\dot_Vim\boring.vim	/^nmap <M-j> :m'>+$/;"	m
+<M-j>	.\dot_Vim\boring.vim	/^onoremap <M-j> gT$/;"	m
+<M-j>	.\dot_Vim\boring.vim	/^vnoremap <M-j> gT$/;"	m
+<M-j>	.\dot_Vim\mine.vim	/^nmap <M-j> :m'>+$/;"	m
+<M-j>	.\dot_Vim\mine.vim	/^onoremap <M-j> gT$/;"	m
+<M-j>	.\dot_Vim\mine.vim	/^vnoremap <M-j> gT$/;"	m
+<M-j>	.\dot_Vim\secret.vim	/^nmap <M-j> :m'>+$/;"	m
+<M-j>	.\dot_Vim\secret.vim	/^onoremap <M-j> gT$/;"	m
+<M-j>	.\dot_Vim\secret.vim	/^vnoremap <M-j> gT$/;"	m
+<M-j>	.\vimbook.vim	/^nmap <M-j> :m'>+$/;"	m
+<M-j>	.\vimbook.vim	/^onoremap <M-j> gT$/;"	m
+<M-j>	.\vimbook.vim	/^vnoremap <M-j> gT$/;"	m
+<M-k>	.\dot_Vim\boring.vim	/^nmap <M-k> :m'<-2$/;"	m
+<M-k>	.\dot_Vim\boring.vim	/^onoremap <M-k> gt$/;"	m
+<M-k>	.\dot_Vim\boring.vim	/^vnoremap <M-k> gt$/;"	m
+<M-k>	.\dot_Vim\mine.vim	/^nmap <M-k> :m'<-2$/;"	m
+<M-k>	.\dot_Vim\mine.vim	/^onoremap <M-k> gt$/;"	m
+<M-k>	.\dot_Vim\mine.vim	/^vnoremap <M-k> gt$/;"	m
+<M-k>	.\dot_Vim\secret.vim	/^nmap <M-k> :m'<-2$/;"	m
+<M-k>	.\dot_Vim\secret.vim	/^onoremap <M-k> gt$/;"	m
+<M-k>	.\dot_Vim\secret.vim	/^vnoremap <M-k> gt$/;"	m
+<M-k>	.\vimbook.vim	/^nmap <M-k> :m'<-2$/;"	m
+<M-k>	.\vimbook.vim	/^onoremap <M-k> gt$/;"	m
+<M-k>	.\vimbook.vim	/^vnoremap <M-k> gt$/;"	m
+<NL>	.\dot_Vim\boring.vim	/^map <NL> j$/;"	m
+<NL>	.\dot_Vim\mine.vim	/^map <NL> j$/;"	m
+<NL>	.\dot_Vim\secret.vim	/^map <NL> j$/;"	m
+<NL>	.\vimbook.vim	/^map <NL> j$/;"	m
+<Nul><Nul>c	.\dot_Vim\boring.vim	/^nmap <Nul><Nul>c :vert scs find c =expand("<cword>")$/;"	m
+<Nul><Nul>c	.\dot_Vim\mine.vim	/^nmap <Nul><Nul>c :vert scs find c =expand("<cword>")$/;"	m
+<Nul><Nul>c	.\dot_Vim\secret.vim	/^nmap <Nul><Nul>c :vert scs find c =expand("<cword>")$/;"	m
+<Nul><Nul>c	.\vimbook.vim	/^nmap <Nul><Nul>c :vert scs find c =expand("<cword>")$/;"	m
+<Nul><Nul>d	.\dot_Vim\boring.vim	/^nmap <Nul><Nul>d :vert scs find d =expand("<cword>")$/;"	m
+<Nul><Nul>d	.\dot_Vim\mine.vim	/^nmap <Nul><Nul>d :vert scs find d =expand("<cword>")$/;"	m
+<Nul><Nul>d	.\dot_Vim\secret.vim	/^nmap <Nul><Nul>d :vert scs find d =expand("<cword>")$/;"	m
+<Nul><Nul>d	.\vimbook.vim	/^nmap <Nul><Nul>d :vert scs find d =expand("<cword>")$/;"	m
+<Nul><Nul>e	.\dot_Vim\boring.vim	/^nmap <Nul><Nul>e :vert scs find e =expand("<cword>")$/;"	m
+<Nul><Nul>e	.\dot_Vim\mine.vim	/^nmap <Nul><Nul>e :vert scs find e =expand("<cword>")$/;"	m
+<Nul><Nul>e	.\dot_Vim\secret.vim	/^nmap <Nul><Nul>e :vert scs find e =expand("<cword>")$/;"	m
+<Nul><Nul>e	.\vimbook.vim	/^nmap <Nul><Nul>e :vert scs find e =expand("<cword>")$/;"	m
+<Nul><Nul>f	.\dot_Vim\boring.vim	/^nmap <Nul><Nul>f :vert scs find f =expand("<cfile>")$/;"	m
+<Nul><Nul>f	.\dot_Vim\mine.vim	/^nmap <Nul><Nul>f :vert scs find f =expand("<cfile>")$/;"	m
+<Nul><Nul>f	.\dot_Vim\secret.vim	/^nmap <Nul><Nul>f :vert scs find f =expand("<cfile>")$/;"	m
+<Nul><Nul>f	.\vimbook.vim	/^nmap <Nul><Nul>f :vert scs find f =expand("<cfile>")$/;"	m
+<Nul><Nul>g	.\dot_Vim\boring.vim	/^nmap <Nul><Nul>g :vert scs find g =expand("<cword>")$/;"	m
+<Nul><Nul>g	.\dot_Vim\mine.vim	/^nmap <Nul><Nul>g :vert scs find g =expand("<cword>")$/;"	m
+<Nul><Nul>g	.\dot_Vim\secret.vim	/^nmap <Nul><Nul>g :vert scs find g =expand("<cword>")$/;"	m
+<Nul><Nul>g	.\vimbook.vim	/^nmap <Nul><Nul>g :vert scs find g =expand("<cword>")$/;"	m
+<Nul><Nul>i	.\dot_Vim\boring.vim	/^nmap <Nul><Nul>i :vert scs find i ^=expand("<cfile>")$/;"	m
+<Nul><Nul>i	.\dot_Vim\mine.vim	/^nmap <Nul><Nul>i :vert scs find i ^=expand("<cfile>")$/;"	m
+<Nul><Nul>i	.\dot_Vim\secret.vim	/^nmap <Nul><Nul>i :vert scs find i ^=expand("<cfile>")$/;"	m
+<Nul><Nul>i	.\vimbook.vim	/^nmap <Nul><Nul>i :vert scs find i ^=expand("<cfile>")$/;"	m
+<Nul><Nul>s	.\dot_Vim\boring.vim	/^nmap <Nul><Nul>s :vert scs find s =expand("<cword>")$/;"	m
+<Nul><Nul>s	.\dot_Vim\mine.vim	/^nmap <Nul><Nul>s :vert scs find s =expand("<cword>")$/;"	m
+<Nul><Nul>s	.\dot_Vim\secret.vim	/^nmap <Nul><Nul>s :vert scs find s =expand("<cword>")$/;"	m
+<Nul><Nul>s	.\vimbook.vim	/^nmap <Nul><Nul>s :vert scs find s =expand("<cword>")$/;"	m
+<Nul><Nul>t	.\dot_Vim\boring.vim	/^nmap <Nul><Nul>t :vert scs find t =expand("<cword>")$/;"	m
+<Nul><Nul>t	.\dot_Vim\mine.vim	/^nmap <Nul><Nul>t :vert scs find t =expand("<cword>")$/;"	m
+<Nul><Nul>t	.\dot_Vim\secret.vim	/^nmap <Nul><Nul>t :vert scs find t =expand("<cword>")$/;"	m
+<Nul><Nul>t	.\vimbook.vim	/^nmap <Nul><Nul>t :vert scs find t =expand("<cword>")$/;"	m
+<Nul>c	.\dot_Vim\boring.vim	/^nmap <Nul>c :scs find c =expand("<cword>")$/;"	m
+<Nul>c	.\dot_Vim\mine.vim	/^nmap <Nul>c :scs find c =expand("<cword>")$/;"	m
+<Nul>c	.\dot_Vim\secret.vim	/^nmap <Nul>c :scs find c =expand("<cword>")$/;"	m
+<Nul>c	.\vimbook.vim	/^nmap <Nul>c :scs find c =expand("<cword>")$/;"	m
+<Nul>d	.\dot_Vim\boring.vim	/^nmap <Nul>d :scs find d =expand("<cword>")$/;"	m
+<Nul>d	.\dot_Vim\mine.vim	/^nmap <Nul>d :scs find d =expand("<cword>")$/;"	m
+<Nul>d	.\dot_Vim\secret.vim	/^nmap <Nul>d :scs find d =expand("<cword>")$/;"	m
+<Nul>d	.\vimbook.vim	/^nmap <Nul>d :scs find d =expand("<cword>")$/;"	m
+<Nul>e	.\dot_Vim\boring.vim	/^nmap <Nul>e :scs find e =expand("<cword>")$/;"	m
+<Nul>e	.\dot_Vim\mine.vim	/^nmap <Nul>e :scs find e =expand("<cword>")$/;"	m
+<Nul>e	.\dot_Vim\secret.vim	/^nmap <Nul>e :scs find e =expand("<cword>")$/;"	m
+<Nul>e	.\vimbook.vim	/^nmap <Nul>e :scs find e =expand("<cword>")$/;"	m
+<Nul>f	.\dot_Vim\boring.vim	/^nmap <Nul>f :scs find f =expand("<cfile>")$/;"	m
+<Nul>f	.\dot_Vim\mine.vim	/^nmap <Nul>f :scs find f =expand("<cfile>")$/;"	m
+<Nul>f	.\dot_Vim\secret.vim	/^nmap <Nul>f :scs find f =expand("<cfile>")$/;"	m
+<Nul>f	.\vimbook.vim	/^nmap <Nul>f :scs find f =expand("<cfile>")$/;"	m
+<Nul>g	.\dot_Vim\boring.vim	/^nmap <Nul>g :scs find g =expand("<cword>")$/;"	m
+<Nul>g	.\dot_Vim\mine.vim	/^nmap <Nul>g :scs find g =expand("<cword>")$/;"	m
+<Nul>g	.\dot_Vim\secret.vim	/^nmap <Nul>g :scs find g =expand("<cword>")$/;"	m
+<Nul>g	.\vimbook.vim	/^nmap <Nul>g :scs find g =expand("<cword>")$/;"	m
+<Nul>i	.\dot_Vim\boring.vim	/^nmap <Nul>i :scs find i ^=expand("<cfile>")$/;"	m
+<Nul>i	.\dot_Vim\mine.vim	/^nmap <Nul>i :scs find i ^=expand("<cfile>")$/;"	m
+<Nul>i	.\dot_Vim\secret.vim	/^nmap <Nul>i :scs find i ^=expand("<cfile>")$/;"	m
+<Nul>i	.\vimbook.vim	/^nmap <Nul>i :scs find i ^=expand("<cfile>")$/;"	m
+<Nul>s	.\dot_Vim\boring.vim	/^nmap <Nul>s :scs find s =expand("<cword>")$/;"	m
+<Nul>s	.\dot_Vim\mine.vim	/^nmap <Nul>s :scs find s =expand("<cword>")$/;"	m
+<Nul>s	.\dot_Vim\secret.vim	/^nmap <Nul>s :scs find s =expand("<cword>")$/;"	m
+<Nul>s	.\vimbook.vim	/^nmap <Nul>s :scs find s =expand("<cword>")$/;"	m
+<Nul>t	.\dot_Vim\boring.vim	/^nmap <Nul>t :scs find t =expand("<cword>")$/;"	m
+<Nul>t	.\dot_Vim\mine.vim	/^nmap <Nul>t :scs find t =expand("<cword>")$/;"	m
+<Nul>t	.\dot_Vim\secret.vim	/^nmap <Nul>t :scs find t =expand("<cword>")$/;"	m
+<Nul>t	.\vimbook.vim	/^nmap <Nul>t :scs find t =expand("<cword>")$/;"	m
+<Plug>NetrwBrowseX	.\dot_Vim\boring.vim	/^nnoremap <silent> <Plug>NetrwBrowseX :call netrw#NetrwBrowseX(expand("<cWORD>"),0)$/;"	m
+<Plug>NetrwBrowseX	.\dot_Vim\mine.vim	/^nnoremap <silent> <Plug>NetrwBrowseX :call netrw#NetrwBrowseX(expand("<cWORD>"),0)$/;"	m
+<Plug>NetrwBrowseX	.\dot_Vim\secret.vim	/^nnoremap <silent> <Plug>NetrwBrowseX :call netrw#NetrwBrowseX(expand("<cWORD>"),0)$/;"	m
+<Plug>NetrwBrowseX	.\vimbook.vim	/^nnoremap <silent> <Plug>NetrwBrowseX :call netrw#NetrwBrowseX(expand("<cWORD>"),0)$/;"	m
+<S-Del>	.\dot_Vim\boring.vim	/^vmap <S-Del> "*d$/;"	m
+<S-Del>	.\dot_Vim\mine.vim	/^vmap <S-Del> "*d$/;"	m
+<S-Del>	.\dot_Vim\secret.vim	/^vmap <S-Del> "*d$/;"	m
+<S-Del>	.\vimbook.vim	/^vmap <S-Del> "*d$/;"	m
+<S-Insert>	.\dot_Vim\boring.vim	/^map! <S-Insert> *$/;"	m
+<S-Insert>	.\dot_Vim\boring.vim	/^nmap <S-Insert> "*P$/;"	m
+<S-Insert>	.\dot_Vim\boring.vim	/^vmap <S-Insert> "-d"*P$/;"	m
+<S-Insert>	.\dot_Vim\mine.vim	/^map! <S-Insert> *$/;"	m
+<S-Insert>	.\dot_Vim\mine.vim	/^nmap <S-Insert> "*P$/;"	m
+<S-Insert>	.\dot_Vim\mine.vim	/^vmap <S-Insert> "-d"*P$/;"	m
+<S-Insert>	.\dot_Vim\secret.vim	/^map! <S-Insert> *$/;"	m
+<S-Insert>	.\dot_Vim\secret.vim	/^nmap <S-Insert> "*P$/;"	m
+<S-Insert>	.\dot_Vim\secret.vim	/^vmap <S-Insert> "-d"*P$/;"	m
+<S-Insert>	.\vimbook.vim	/^map! <S-Insert> *$/;"	m
+<S-Insert>	.\vimbook.vim	/^nmap <S-Insert> "*P$/;"	m
+<S-Insert>	.\vimbook.vim	/^vmap <S-Insert> "-d"*P$/;"	m
+C	.\dot_Vim\mine.vim	/^inoremap <buffer> <silent> C :let g:netrw_chgwin= winnr()$/;"	m
+C	.\dot_Vim\mine.vim	/^nnoremap <buffer> <silent> C :let g:netrw_chgwin= winnr()$/;"	m
+Q	.\dot_Vim\boring.vim	/^map Q gq$/;"	m
+Q	.\dot_Vim\mine.vim	/^map Q gq$/;"	m
+Q	.\dot_Vim\secret.vim	/^map Q gq$/;"	m
+Q	.\vimbook.vim	/^map Q gq$/;"	m
+SessionLoad	.\dot_Vim\boring.vim	/^let SessionLoad = 1$/;"	v
+SessionLoad	.\dot_Vim\mine.vim	/^let SessionLoad = 1$/;"	v
+SessionLoad	.\dot_Vim\secret.vim	/^let SessionLoad = 1$/;"	v
+SessionLoad	.\vimbook.vim	/^let SessionLoad = 1$/;"	v
+["	.\dot_Vim\boring.vim	/^nnoremap <buffer> <silent> [" :call search('\\%(^\\s*".*\\n\\)\\%(^\\s*"\\)\\@!', "bW")$/;"	m
+["	.\dot_Vim\boring.vim	/^vnoremap <buffer> <silent> [" :exe "normal! gv"|call search('\\%(^\\s*".*\\n\\)\\%(^\\s*"\\)\\@!', "bW")$/;"	m
+["	.\dot_Vim\secret.vim	/^nnoremap <buffer> <silent> [" :call search('\\%(^\\s*".*\\n\\)\\%(^\\s*"\\)\\@!', "bW")$/;"	m
+["	.\dot_Vim\secret.vim	/^vnoremap <buffer> <silent> [" :exe "normal! gv"|call search('\\%(^\\s*".*\\n\\)\\%(^\\s*"\\)\\@!', "bW")$/;"	m
+["	.\vimbook.vim	/^nnoremap <buffer> <silent> [" :call search('\\%(^\\s*".*\\n\\)\\%(^\\s*"\\)\\@!', "bW")$/;"	m
+["	.\vimbook.vim	/^vnoremap <buffer> <silent> [" :exe "normal! gv"|call search('\\%(^\\s*".*\\n\\)\\%(^\\s*"\\)\\@!', "bW")$/;"	m
+[%	.\dot_Vim\boring.vim	/^vmap [% [%m'gv``$/;"	m
+[%	.\dot_Vim\mine.vim	/^vmap [% [%m'gv``$/;"	m
+[%	.\dot_Vim\secret.vim	/^vmap [% [%m'gv``$/;"	m
+[%	.\vimbook.vim	/^vmap [% [%m'gv``$/;"	m
+[[	.\dot_Vim\boring.vim	/^nnoremap <buffer> <silent> [[ m':call search('^\\s*fu\\%[nction]\\>', "bW")$/;"	m
+[[	.\dot_Vim\boring.vim	/^vnoremap <buffer> <silent> [[ m':exe "normal! gv"|call search('^\\s*fu\\%[nction]\\>', "bW")$/;"	m
+[[	.\dot_Vim\secret.vim	/^nnoremap <buffer> <silent> [[ m':call search('^\\s*fu\\%[nction]\\>', "bW")$/;"	m
+[[	.\dot_Vim\secret.vim	/^vnoremap <buffer> <silent> [[ m':exe "normal! gv"|call search('^\\s*fu\\%[nction]\\>', "bW")$/;"	m
+[[	.\vimbook.vim	/^nnoremap <buffer> <silent> [[ m':call search('^\\s*fu\\%[nction]\\>', "bW")$/;"	m
+[[	.\vimbook.vim	/^vnoremap <buffer> <silent> [[ m':exe "normal! gv"|call search('^\\s*fu\\%[nction]\\>', "bW")$/;"	m
+[]	.\dot_Vim\boring.vim	/^nnoremap <buffer> <silent> [] m':call search('^\\s*endf*\\%[unction]\\>', "bW")$/;"	m
+[]	.\dot_Vim\boring.vim	/^vnoremap <buffer> <silent> [] m':exe "normal! gv"|call search('^\\s*endf*\\%[unction]\\>', "bW")$/;"	m
+[]	.\dot_Vim\secret.vim	/^nnoremap <buffer> <silent> [] m':call search('^\\s*endf*\\%[unction]\\>', "bW")$/;"	m
+[]	.\dot_Vim\secret.vim	/^vnoremap <buffer> <silent> [] m':exe "normal! gv"|call search('^\\s*endf*\\%[unction]\\>', "bW")$/;"	m
+[]	.\vimbook.vim	/^nnoremap <buffer> <silent> [] m':call search('^\\s*endf*\\%[unction]\\>', "bW")$/;"	m
+[]	.\vimbook.vim	/^vnoremap <buffer> <silent> [] m':exe "normal! gv"|call search('^\\s*endf*\\%[unction]\\>', "bW")$/;"	m
+]"	.\dot_Vim\boring.vim	/^nnoremap <buffer> <silent> ]" :call search('^\\(\\s*".*\\n\\)\\@<!\\(\\s*"\\)', "W")$/;"	m
+]"	.\dot_Vim\boring.vim	/^vnoremap <buffer> <silent> ]" :exe "normal! gv"|call search('^\\(\\s*".*\\n\\)\\@<!\\(\\s*"\\)', "W")$/;"	m
+]"	.\dot_Vim\secret.vim	/^nnoremap <buffer> <silent> ]" :call search('^\\(\\s*".*\\n\\)\\@<!\\(\\s*"\\)', "W")$/;"	m
+]"	.\dot_Vim\secret.vim	/^vnoremap <buffer> <silent> ]" :exe "normal! gv"|call search('^\\(\\s*".*\\n\\)\\@<!\\(\\s*"\\)', "W")$/;"	m
+]"	.\vimbook.vim	/^nnoremap <buffer> <silent> ]" :call search('^\\(\\s*".*\\n\\)\\@<!\\(\\s*"\\)', "W")$/;"	m
+]"	.\vimbook.vim	/^vnoremap <buffer> <silent> ]" :exe "normal! gv"|call search('^\\(\\s*".*\\n\\)\\@<!\\(\\s*"\\)', "W")$/;"	m
+]%	.\dot_Vim\boring.vim	/^vmap ]% ]%m'gv``$/;"	m
+]%	.\dot_Vim\mine.vim	/^vmap ]% ]%m'gv``$/;"	m
+]%	.\dot_Vim\secret.vim	/^vmap ]% ]%m'gv``$/;"	m
+]%	.\vimbook.vim	/^vmap ]% ]%m'gv``$/;"	m
+][	.\dot_Vim\boring.vim	/^nnoremap <buffer> <silent> ][ m':call search('^\\s*endf*\\%[unction]\\>', "W")$/;"	m
+][	.\dot_Vim\boring.vim	/^vnoremap <buffer> <silent> ][ m':exe "normal! gv"|call search('^\\s*endf*\\%[unction]\\>', "W")$/;"	m
+][	.\dot_Vim\secret.vim	/^nnoremap <buffer> <silent> ][ m':call search('^\\s*endf*\\%[unction]\\>', "W")$/;"	m
+][	.\dot_Vim\secret.vim	/^vnoremap <buffer> <silent> ][ m':exe "normal! gv"|call search('^\\s*endf*\\%[unction]\\>', "W")$/;"	m
+][	.\vimbook.vim	/^nnoremap <buffer> <silent> ][ m':call search('^\\s*endf*\\%[unction]\\>', "W")$/;"	m
+][	.\vimbook.vim	/^vnoremap <buffer> <silent> ][ m':exe "normal! gv"|call search('^\\s*endf*\\%[unction]\\>', "W")$/;"	m
+]]	.\dot_Vim\boring.vim	/^nnoremap <buffer> <silent> ]] m':call search('^\\s*fu\\%[nction]\\>', "W")$/;"	m
+]]	.\dot_Vim\boring.vim	/^vnoremap <buffer> <silent> ]] m':exe "normal! gv"|call search('^\\s*fu\\%[nction]\\>', "W")$/;"	m
+]]	.\dot_Vim\secret.vim	/^nnoremap <buffer> <silent> ]] m':call search('^\\s*fu\\%[nction]\\>', "W")$/;"	m
+]]	.\dot_Vim\secret.vim	/^vnoremap <buffer> <silent> ]] m':exe "normal! gv"|call search('^\\s*fu\\%[nction]\\>', "W")$/;"	m
+]]	.\vimbook.vim	/^nnoremap <buffer> <silent> ]] m':call search('^\\s*fu\\%[nction]\\>', "W")$/;"	m
+]]	.\vimbook.vim	/^vnoremap <buffer> <silent> ]] m':exe "normal! gv"|call search('^\\s*fu\\%[nction]\\>', "W")$/;"	m
+a%	.\dot_Vim\boring.vim	/^vmap a% [%v]%$/;"	m
+a%	.\dot_Vim\mine.vim	/^vmap a% [%v]%$/;"	m
+a%	.\dot_Vim\secret.vim	/^vmap a% [%v]%$/;"	m
+a%	.\vimbook.vim	/^vmap a% [%v]%$/;"	m
+c	.\dot_Vim\mine.vim	/^inoremap <buffer> <silent> c :exe "keepjumps lcd ".fnameescape(b:netrw_curdir)$/;"	m
+c	.\dot_Vim\mine.vim	/^nnoremap <buffer> <silent> c :exe "keepjumps lcd ".fnameescape(b:netrw_curdir)$/;"	m
+gv	.\dot_Vim\boring.vim	/^vnoremap <silent> gv :call VisualSelection('gv')$/;"	m
+gv	.\dot_Vim\mine.vim	/^vnoremap <silent> gv :call VisualSelection('gv')$/;"	m
+gv	.\dot_Vim\secret.vim	/^vnoremap <silent> gv :call VisualSelection('gv')$/;"	m
+gv	.\vimbook.vim	/^vnoremap <silent> gv :call VisualSelection('gv')$/;"	m
+gx	.\dot_Vim\boring.vim	/^nmap gx <Plug>NetrwBrowseX$/;"	m
+gx	.\dot_Vim\mine.vim	/^nmap gx <Plug>NetrwBrowseX$/;"	m
+gx	.\dot_Vim\secret.vim	/^nmap gx <Plug>NetrwBrowseX$/;"	m
+gx	.\vimbook.vim	/^nmap gx <Plug>NetrwBrowseX$/;"	m
+init	.\dot_Vim\b.cpp	/^void init() {$/;"	f
+inits	.\dot_Vim\inits.h	/^class inits {$/;"	c
+j	.\dot_Vim\boring.vim	/^map j gj$/;"	m
+j	.\dot_Vim\mine.vim	/^map j gj$/;"	m
+j	.\dot_Vim\secret.vim	/^map j gj$/;"	m
+j	.\vimbook.vim	/^map j gj$/;"	m
+k	.\dot_Vim\boring.vim	/^map k gk$/;"	m
+k	.\dot_Vim\mine.vim	/^map k gk$/;"	m
+k	.\dot_Vim\secret.vim	/^map k gk$/;"	m
+k	.\vimbook.vim	/^map k gk$/;"	m
+main	.\b.cpp	/^int main() {$/;"	f
+main	.\dot_Vim\b.cpp	/^int main() {$/;"	f
+s:cpo_save	.\dot_Vim\boring.vim	/^let s:cpo_save=&cpo$/;"	v
+s:cpo_save	.\dot_Vim\mine.vim	/^let s:cpo_save=&cpo$/;"	v
+s:cpo_save	.\dot_Vim\secret.vim	/^let s:cpo_save=&cpo$/;"	v
+s:cpo_save	.\vimbook.vim	/^let s:cpo_save=&cpo$/;"	v
+s:l	.\dot_Vim\boring.vim	/^let s:l = 18 - ((17 * winheight(0) + 15) \/ 31)$/;"	v
+s:l	.\dot_Vim\boring.vim	/^let s:l = 4 - ((3 * winheight(0) + 15) \/ 31)$/;"	v
+s:l	.\dot_Vim\boring.vim	/^let s:l = 431 - ((15 * winheight(0) + 15) \/ 31)$/;"	v
+s:l	.\dot_Vim\boring.vim	/^let s:l = 5 - ((4 * winheight(0) + 15) \/ 31)$/;"	v
+s:l	.\dot_Vim\main.vim	/^let s:l = 5 - ((4 * winheight(0) + 15) \/ 31)$/;"	v
+s:l	.\dot_Vim\mine.vim	/^let s:l = 1 - ((0 * winheight(0) + 6) \/ 13)$/;"	v
+s:l	.\dot_Vim\secret.vim	/^let s:l = 18 - ((17 * winheight(0) + 15) \/ 31)$/;"	v
+s:l	.\dot_Vim\secret.vim	/^let s:l = 431 - ((15 * winheight(0) + 15) \/ 31)$/;"	v
+s:l	.\dot_Vim\secret.vim	/^let s:l = 5 - ((4 * winheight(0) + 15) \/ 31)$/;"	v
+s:l	.\vimbook.vim	/^let s:l = 18 - ((17 * winheight(0) + 15) \/ 31)$/;"	v
+s:l	.\vimbook.vim	/^let s:l = 431 - ((15 * winheight(0) + 15) \/ 31)$/;"	v
+s:l	.\vimbook.vim	/^let s:l = 5 - ((4 * winheight(0) + 15) \/ 31)$/;"	v
+s:so_save	.\dot_Vim\boring.vim	/^let s:so_save = &so | let s:siso_save = &siso | set so=0 siso=0$/;"	v
+s:so_save	.\dot_Vim\main.vim	/^let s:so_save = &so | let s:siso_save = &siso | set so=0 siso=0$/;"	v
+s:so_save	.\dot_Vim\mine.vim	/^let s:so_save = &so | let s:siso_save = &siso | set so=0 siso=0$/;"	v
+s:so_save	.\dot_Vim\secret.vim	/^let s:so_save = &so | let s:siso_save = &siso | set so=0 siso=0$/;"	v
+s:so_save	.\vimbook.vim	/^let s:so_save = &so | let s:siso_save = &siso | set so=0 siso=0$/;"	v
+s:sx	.\dot_Vim\boring.vim	/^let s:sx = expand("<sfile>:p:r")."x.vim"$/;"	v
+s:sx	.\dot_Vim\mine.vim	/^let s:sx = expand("<sfile>:p:r")."x.vim"$/;"	v
+s:sx	.\dot_Vim\secret.vim	/^let s:sx = expand("<sfile>:p:r")."x.vim"$/;"	v
+s:sx	.\vimbook.vim	/^let s:sx = expand("<sfile>:p:r")."x.vim"$/;"	v
+s:wipebuf	.\dot_Vim\boring.vim	/^  let s:wipebuf = bufnr('%')$/;"	v
+s:wipebuf	.\dot_Vim\mine.vim	/^  let s:wipebuf = bufnr('%')$/;"	v
+s:wipebuf	.\dot_Vim\secret.vim	/^  let s:wipebuf = bufnr('%')$/;"	v
+s:wipebuf	.\vimbook.vim	/^  let s:wipebuf = bufnr('%')$/;"	v
+total	.\a.py	/^total = ch_array[0] +$/;"	v
+write_block	.\dot_Vim\a.cpp	/^void write_block(char **s, int cnt) {$/;"	f
+write_line	.\dot_Vim\b.cpp	/^void write_line(char *s) {$/;"	f
+zt	.\dot_Vim\boring.vim	/^normal! zt$/;"	m
+zt	.\dot_Vim\main.vim	/^normal! zt$/;"	m
+zt	.\dot_Vim\mine.vim	/^normal! zt$/;"	m
+zt	.\dot_Vim\secret.vim	/^normal! zt$/;"	m
+zt	.\vimbook.vim	/^normal! zt$/;"	m

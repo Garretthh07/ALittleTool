@@ -1,66 +1,26 @@
 #include "stdio.h"
-#INCLUDE "STDIO.h"
-#Include "stdio.h"
-
-    if (strstr(input, "aap") == ) /* vim:set shiftwidth=2: */
-    if (strstr(input, "aap") == ) /* vim:set shiftwidth=2: */
-    if (strstr(input, "aap") == ) /* vim:set shiftwidth=2: */
-    if (strstr(input, "aap") == ) /* vim:set shiftwidth=2: */
-    if (strstr(input, "aap") == ) /* vim:set shiftwidth=2: */
-    if (strstr(input, "aap") == ) /* vim:set shiftwidth=2: */
-    if (strstr(input, "aap") == )
-    if (strstr(input, "aap") == )
-    if (strstr(input, "aap") == )
-    if (strstr(input, "aap") == )
-    if (strstr(input, "aap") == )
-    if (strstr(input, "aap") == )
-    if (strstr(input, "aap") == )
-    if (strstr(input, "aap") == )
-    if (strstr(input, "aap") == )
-    if (strstr(input, "aap") == )
-
-    x_counter
-    x_counter
-    x_counter
-    x_counter
-    x_counter
-    x_counter
-    x_counter
-    x_counter
-    x_counter
+#include "iostream"
+using namespace std;
 
 
--person-
--person-
--person-
--person-
--person-
--person-
--person-
--person-
--person-
+void write_block(char **s, int cnt) {
+    int i;
+    for (i = 0; i < cnt; ++i)
+        write_line(s[i]);
+}
 
-a
-ab
-abb
-abbb
-axbxb
+int main() 
+{
+    int i=3;
+    do_sub("foo");
+    ++i;
 
-folders
-folder
-foo bar a
-one two three
-foo foobar foofoo barfoobar
-if while for end
-endif endwhile endfor
-forever fortuin
 
-"foo" "3!x"
-the
-    word
-"This is \n
-  test"
-
-1MGU103
-1MGU103
-1MGU10g
+    if (flag)
+        do_the_work();
+    if (other_flag) {
+        do_file();
+        do_some_more();
+    }
+    return (0);
+}
