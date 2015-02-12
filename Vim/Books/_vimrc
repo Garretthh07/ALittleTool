@@ -158,6 +158,7 @@ imap <c-s> <Esc>:w<CR>a
 
 " Ingnore case when searching.
 set ignorecase
+set infercase
 
 " Show autocomplete menus.
 set wildmenu
@@ -190,7 +191,7 @@ imap <c-s> <Esc>:w<CR>a
 set smartcase
 
 " Size of GVim window
-set lines=35 columns=99
+set lines=40 columns=80
 
 " Don't display the menu or toolbar. Just the screen.
 set guioptions-=m
@@ -605,3 +606,19 @@ source $VIMRUNTIME/ftplugin/man.vim
 
 " sessionoptions can fit MS-Windows and Unix
 set sessionoptions+=unix,slash
+
+" set fileformats 
+set fileformats=unix,dos
+
+" zf, zo, zm for foldmethod
+set foldmethod=indent
+
+set softtabstop=4
+
+set browsedir=buffer
+
+" start VIM, position it at (x,y)
+winpos 606 8
+
+" insert the current When press <F2>
+imap <F2> <C-R>=strftime("%c")<CR>
