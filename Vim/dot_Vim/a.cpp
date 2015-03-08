@@ -9,6 +9,19 @@ void write_block(char **s, int cnt) {
         write_line(s[i]);
 }
 
+void init() 
+{
+    int i,j,k;
+    int mask = 0;
+    int dp[1000][10];
+    for (i = 0; i < 1000 ; i++)
+    {
+        for (j = 0; j < 10; j++)
+        {
+        }
+    }
+}
+
 int main() 
 {
     int i=3;
