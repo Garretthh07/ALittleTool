@@ -157,6 +157,7 @@ def test(url):
 
 if __name__ == "__main__":
     #test("http://diveintopython.org/odbchelper_list.html")
-    test(r"www.swaroopch.com/notes/python")
+    #test(r"www.swaroopch.com/notes/python")
+    test(r"www.swaroopch.com")
 
 
