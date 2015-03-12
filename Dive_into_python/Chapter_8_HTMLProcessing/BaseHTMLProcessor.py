@@ -73,3 +73,6 @@ class BaseHTMLProcessor(SGMLParser):
         """ Return processed HTML as a single string """
         return "".join(self.pieces)
 
+if __name__ == "__main__":
+    for k,v in globals().items():
+        print k, "=", v
