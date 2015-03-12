@@ -20,4 +20,6 @@ from BaseHTMLProcessor import BaseHTMLProcessor
 parser = BaseHTMLProcessor()
 parser.feed(htmlSource)
 
+print parser.pieces
+print "======================="
 print parser.output()
