@@ -74,7 +74,7 @@ class ChefDialectizer(Dialectizer):
             (r'([a-z])[.]', r'\1. Bork Bork Bork!'))
 
 
-class Fuddialectizer(Dialectizer):
+class FuddDialectizer(Dialectizer):
     """ convert HTML to Elmer Fudd-speak"""
     subs = ((r'[rl]', r'w'),
             (r'qu', r'qw'),
@@ -135,8 +135,8 @@ def translate(url, dialectName="chef"):
     dialect in ("chef", "fudd", "olde") """
     import urllib
     sock = urllib.urlopen(url)
-    htmlSource = soce.read()
-    soce.close()
+    htmlSource = sock.read()
+    sock.close()
     parserName = "%sDialectizer" % dialectName.capitalize()
     parserClass = globals()[parserName]
     parser = parserClass()
@@ -157,7 +157,6 @@ def test(url):
 
 if __name__ == "__main__":
     #test("http://diveintopython.org/odbchelper_list.html")
-    #test(r"www.swaroopch.com/notes/python")
-    test(r"www.swaroopch.com")
+    test("http://www.swaroopch.com")
 
 

@@ -1,5 +1,3 @@
-#!usr/bin/python
-# Filename: BaseHTMLProcessor.py
 
 from sgmllib import SGMLParser
 import htmlentitydefs
