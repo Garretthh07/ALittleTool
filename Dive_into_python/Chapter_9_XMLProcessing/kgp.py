@@ -115,9 +115,9 @@ class KantGenerator:
 
         # My add Start
         #if choices == False:
-        choices.append("zhang shun")
-        choices.append("english")
-        print "randomChildElement ====", choices
+        #choices.append("zhang shun")
+        #choices.append("english")
+        #print "randomChildElement ====", choices
         # My add End
 
         chosen = random.choice(choices)
@@ -137,10 +137,10 @@ class KantGenerator:
         "parse_Text" for a Text node, etc.) and then calls the method.
         """
 
-        #parseMethod = getattr(self, "parse_%s" % node.__class__.__name__)
+        parseMethod = getattr(self, "parse_%s" % node.__class__.__name__)
 
         # My add Start
-        parseMethod = getattr(self, "parse_Text")
+        #arseMethod = getattr(self, "parse_Text")
         # My add End
 
         parseMethod(node)
