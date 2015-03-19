@@ -46,7 +46,7 @@ class KantGenerator:
         - the actual XML document, as a string
         """
         sock = toolbox.openAnything(source)
-        print "_load =======", source , sock
+        # print "_load =======", source , sock
         xmldoc = minidom.parse(sock).documentElement
         sock.close()
         return xmldoc
@@ -57,7 +57,7 @@ class KantGenerator:
         self.refs = {}
         for ref in self.grammar.getElementsByTagName("ref"):
                 self.refs[ref.attributes["id"].value] = ref
-        print "loadGrammar ===", self.refs
+        # print "loadGrammar ===", self.refs
 
     def loadSource(self, source):
         """load source"""
@@ -76,11 +76,11 @@ class KantGenerator:
         """
         xrefs = {}
         for xref in self.grammar.getElementsByTagName("xref"):
-            #print "getDefaultSource =====", xref
+            # print "getDefaultSource =====", xref
             xrefs[xref.attributes["id"].value] = 1
 
         xrefs = xrefs.keys()
-        print "getDefaultSource === 22", self.refs.keys(), xrefs
+        # print "getDefaultSource === 22", self.refs.keys(), xrefs
         standaloneXrefs = [e for e in self.refs.keys() if e not in xrefs]
         if not standaloneXrefs:
             raise NoSourceError, "can't guess source, and no source specified"
@@ -118,7 +118,7 @@ class KantGenerator:
         #if choices == False:
         #choices.append("zhang shun")
         #choices.append("english")
-        #print "randomChildElement ====", choices
+        # print "randomChildElement ====", choices
         # My add End
 
         chosen = random.choice(choices)
