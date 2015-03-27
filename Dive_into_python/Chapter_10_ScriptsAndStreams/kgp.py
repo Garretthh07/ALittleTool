@@ -255,7 +255,7 @@ def main(argv):
 
     source = "".join(args)
     k = KantGenerator(grammar, source)
-    print k.output
+    print k.output()
 
 if __name__ == "__main__":
     main(sys.argv[1:])
