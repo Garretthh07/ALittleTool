@@ -8,7 +8,7 @@ import os.path
 import math
 import shutil
 
-soundPath = "../soundListDircitionary"
+soundPath = "../SoundRes/"
 soundOutPath = "../soundOut.txt"
 xySoundPath = "res/sound/ui/"
 
@@ -38,8 +38,7 @@ def cleanSoundOutFile():
         if f:
             f.close()
 
-def addSpaceStr(strLen):
-    alignLen = 20
+def addSpaceStr(alignLen, strLen):
     spaceStr = " "
     ans = ""
     if strLen <= alignLen:
@@ -52,14 +51,17 @@ for parent, dirnames, filenames in os.walk(soundPath):
     for filename in filenames:
         soundPath = "{ " + "soundPath = \"" + xySoundPath + "\", "
         soundName = "soundName = \"" + filename + "\""
-        loopSuffix = ", loop = false" + " },"
+        loopSuffix = "loop = false" + " },"
 
         soundNameStr = os.path.splitext(filename)[0]
         soundStrList = soundNameStr.split("_")
 
         soundKey = getSoundKey(soundStrList)
-        spaceNum = addSpaceStr(len(soundKey))
+        spaceNum = addSpaceStr(15, len(soundKey))
 
-        ans = "[\"" + soundKey + "\"]" + spaceNum + " = " + soundPath + soundName + loopSuffix + "\n"
+        ans = "[\"" + soundKey + "\"]" + spaceNum + " = " + soundPath + soundName
+
+        spaceNum1 = addSpaceStr(90, len(ans))
+        ans = ans + ", " + spaceNum1 + loopSuffix + "\n"
 
         writeSoundOutFile(ans)
